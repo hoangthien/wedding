@@ -54,10 +54,14 @@ $(document).ready(function() {
     		transition: 'fade2',
     		transitionDuration: 4000,
     		slides: [
-    			{ src: "./img/portfolio_1.jpg" },
+    			{ src: "./img/portfolio_6.jpg" },
     			{ src: "./img/portfolio_2.jpg" },
     			{ src: "./img/portfolio_3.jpg" },
-    			{ src: "./img/portfolio_4.jpg" }
+    			{ src: "./img/portfolio_4.jpg" },
+    			{ src: "./img/story_1.jpg" },
+    			{ src: "./img/portfolio_1.jpg" },
+    			{ src: "./img/story_3.jpg" },
+    			{ src: "./img/portfolio_7.jpg" }
     		]
     	});
     }
@@ -125,10 +129,10 @@ $(document).ready(function() {
 		  // Display the result in the element with class="countdown"
 		  document.getElementById('countdown').innerHTML = 
 		  "<ul>" + 
-			  "<li>" + "<h2>" + days + "</h2>" + "<h4>days</h4>" + "</li>" +
-			  "<li>" + "<h2>" + hours + "</h2>" + "<h4>hours</h4>" + "</li>"+
-			  "<li>" + "<h2>" + minutes + "</h2>" + "<h4>min</h4>" + "</li>"+
-			  "<li>" + "<h2>" + seconds + "</h2>" + "<h4>sec</h4>"+"</li>"+			  
+			  "<li>" + "<h2>" + days + "</h2>" + "<h4>ngày</h4>" + "</li>" +
+			  "<li>" + "<h2>" + hours + "</h2>" + "<h4>giờ</h4>" + "</li>"+
+			  "<li>" + "<h2>" + minutes + "</h2>" + "<h4>phút</h4>" + "</li>"+
+			  "<li>" + "<h2>" + seconds + "</h2>" + "<h4>giây</h4>"+"</li>"+			  
 		  "</ul>";
 		  
 		  // If the count down is finished, write some text 

@@ -233,7 +233,7 @@ body{
 	line-height: 26px;	
 }
 section, .section{
-	padding: 8rem 0;
+	padding: 3rem 0;
 	position: relative;
 	background: #fff;
 	overflow-x: hidden;
@@ -265,7 +265,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	position: relative;
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
 }
 h1:first-child,
 h2:first-child,
@@ -325,7 +325,7 @@ footer h2 {
 	font-size: 1.25em;
     line-height: 1.625em;
     color: rgba(45, 44, 53, 1);
-    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
 }
 .blockquote {
     padding-left: 1rem;
@@ -350,6 +350,10 @@ footer h2 {
 
 /* 5 Slider Section
 ==================================================== */
+/*#slider .slider-text-holder h2{
+	font-family: 'Dancing Script', cursive;
+}*/
+
 #slider{
 	height: calc(100vh) !important;
 }
@@ -485,13 +489,13 @@ footer h2 {
 
 /* 6 About Section
 ==================================================== */
-.about-content h4 {
+/*.about-content h4 {
     font-weight: 300;
     line-height: 1.625em;
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-family: 'Raleway', sans-serif;
-}
+}*/
 .social-link {
     padding: 0;
     margin-bottom: 0;
@@ -544,6 +548,8 @@ footer h2 {
 .story-img-2{ background: url("../img/story_2.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
 .story-img-3{ background: url("../img/story_3.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
 .story-img-4{ background: url("../img/story_4.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.location-img-5{ background: url("../img/story_5.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.location-img-6{ background: url("../img/story_6.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
 
 .story-img {
 	height: 14rem;
@@ -555,6 +561,12 @@ footer h2 {
 .story-img-3,
 .story-img-4 {
 	height: 17rem;
+    width: 100%;
+	border-radius: 3px;
+}
+.location-img-5,
+.location-img-6 {
+	height: 37rem;
     width: 100%;
 	border-radius: 3px;
 }
@@ -719,11 +731,20 @@ footer h2 {
     line-height: 1.625em;
     margin-bottom: 19px;
     margin-top: 19px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+#people p{
+    font-weight: 300;
+    line-height: 1.625em;
+    margin-bottom: 19px;
+    margin-top: 19px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
 }
 
 .people-img{
-	width: 130px;
+	width: 160px;
     float: none;
     display: inline-block;
     margin-left: 15px;
@@ -764,7 +785,7 @@ footer h2 {
 ==================================================== */
 
 #portfolio{
-	padding-bottom: 0 !important;
+	padding-bottom: 5rem !important;
 	overflow-x: unset !important;
 }
 #portfolio button{
@@ -960,6 +981,11 @@ footer h2 {
 
 /* 16 Gift Section
 ==================================================== */
+#gift{
+	padding-bottom: 7rem !important;
+	overflow-x: unset !important;
+}
+
 #gift p{
 	margin-bottom:2em;
 }
@@ -986,6 +1012,7 @@ footer h2 {
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
     background: none repeat scroll 0 0 #de037f;    
 }
+
 #gift-carousel i{
 	color: #ececec;
     display: block;
