@@ -58,10 +58,8 @@ $(document).ready(function() {
     			{ src: "./img/portfolio_2.jpg" },
     			{ src: "./img/portfolio_3.jpg" },
     			{ src: "./img/portfolio_4.jpg" },
-    			{ src: "./img/story_1.jpg" },
     			{ src: "./img/portfolio_1.jpg" },
-    			{ src: "./img/story_3.jpg" },
-    			{ src: "./img/portfolio_7.jpg" }
+    			{ src: "./img/story_3.jpg" }
     		]
     	});
     }
